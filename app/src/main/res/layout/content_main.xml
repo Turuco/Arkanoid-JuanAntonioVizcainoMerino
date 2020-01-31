@@ -8,15 +8,12 @@
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <ImageButton
-        android:id="@+id/BackgroundButton"
-        android:layout_width="472dp"
-        android:layout_height="713dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/background_final" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="634dp"
+        android:layout_height="796dp"
+        app:srcCompat="@drawable/background_final_png"
+        tools:layout_editor_absoluteX="-96dp"
+        tools:layout_editor_absoluteY="-6dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
